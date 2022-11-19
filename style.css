@@ -1,15 +1,61 @@
-h1, p {
-    text-align: center;
+ol li{
+    background-color: yellow;
 }
 
-ol:hover, ul:hover {
-    background-color: brown;
+ol li:nth-child(even) {
+    color: green;
 }
 
-li:active {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ol li:nth-child(odd) {
+    text-transform: uppercase;
 }
 
-ol, ul {
-    list-style: none;
+h1, h2 {
+    color: red;
+}
+
+h1 em, h2 em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+.pythonblue {
+    color: blue;
+}
+
+.pink-bg {
+    color: blue;
+    background-color: pink;
+}
+
+#aliados:hover {
+    font-weight: bold;
+}
+
+#aliados li a[href*="stackoverflow"] {
+    color: orange;
+}
+
+#aliados li a[href*="w3schools"] {
+    color: green;
+}
+
+#aliados li a[href*="mozilla"] {
+    color: black;
+}
+
+#aliados li a[href*="devdocs"] {
+    color: yellow;
+}
+
+#aliados li a[href*="trybe"] {
+    color: green
 }
