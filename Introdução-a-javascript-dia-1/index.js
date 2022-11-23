@@ -1,13 +1,23 @@
-const nota = 70;
+const currentHour = 10;
+let message ='';
 
-if (nota >= 80){
-    console.log("Parabéns, você foi aprovado")
+if (currentHour >= 22){
+    console.log("Não deveríamos comer nada, é hora de dormir")
 }
 
-else if (nota <80 && >=60){
-    console.log("Você está na nossa lista de espera")
+else if (currentHour >= 18 && < 22){
+    console.log("Rango da noite, vamos jantar :D")
 }
 
-else (nota >60){
-    console.log("Você foi reprovada(O)")
+else if (currentHour >= 14 && < 18){
+    console.log("Vamos fazer um bolo pro café da tarde?")
 }
+
+else if (currentHour >= 11 && < 14){
+    console.log("Hora do almoço!!!")
+}
+
+else (currentHour >=4 && < 11){
+    console.log("Hmmm, cheiro de café recém-passado")
+}
+
